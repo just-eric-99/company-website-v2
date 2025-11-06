@@ -3,42 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Custom AI and software development consultancy specializing in agentic AI, computer vision, and full-stack solutions. Transform your business with cutting-edge technology.">
-    <title>AI & Software Development Consultancy | Custom Solutions</title>
+    <title>Apex Labs — We Build AI That Ships 🚀</title>
+    <meta name="description" content="AI-first software studio building production-ready intelligent systems. From agentic AI to computer vision, we turn ambitious ideas into deployed products.">
 
-    <!-- Preconnect to external resources -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Skip to main content for accessibility -->
+    <!-- Skip Link -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Animated Background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-gradient-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-gradient-orb orb-2" aria-hidden="true"></div>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <a href="#home" aria-label="Home - AI Software Consultancy">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <rect width="48" height="48" rx="10" fill="#2563eb"/>
-                            <path d="M24 14L32 20V28L24 34L16 28V20L24 14Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <circle cx="24" cy="24" r="3" fill="white"/>
+                    <a href="#home" aria-label="Apex Labs - Home">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06b6d4"/>
+                                    <stop offset="100%" style="stop-color:#a855f7"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M20 5L35 15L35 25L20 35L5 25L5 15L20 5Z" fill="url(#logo-gradient)"/>
+                            <circle cx="20" cy="20" r="4" fill="white"/>
                         </svg>
-                        <span class="logo-text">Apex<span class="logo-accent">AI</span></span>
+                        <span class="logo-text">apex<span class="logo-labs">labs</span></span>
                     </a>
                 </div>
                 <ul class="nav-menu" id="nav-menu" role="menubar">
-                    <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
-                    <li role="none"><a href="#ai-expertise" class="nav-link" role="menuitem">AI Expertise</a></li>
-                    <li role="none"><a href="#case-studies" class="nav-link" role="menuitem">Case Studies</a></li>
-                    <li role="none"><a href="#approach" class="nav-link" role="menuitem">Our Approach</a></li>
-                    <li role="none"><a href="#contact" class="nav-link nav-cta" role="menuitem">Let's Talk</a></li>
+                    <li role="none"><a href="#work" class="nav-link" role="menuitem">Work</a></li>
+                    <li role="none"><a href="#capabilities" class="nav-link" role="menuitem">Capabilities</a></li>
+                    <li role="none"><a href="#ai" class="nav-link" role="menuitem">AI Lab</a></li>
+                    <li role="none"><a href="#contact" class="nav-link nav-cta" role="menuitem">Let's Build →</a></li>
                 </ul>
-                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -54,537 +63,404 @@
         <section id="home" class="hero" aria-labelledby="hero-title">
             <div class="container">
                 <div class="hero-content">
-                    <p class="hero-badge" role="text">Custom AI Solutions & Software Development</p>
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>Shipping production AI since 2020</span>
+                    </div>
                     <h1 id="hero-title" class="hero-title">
-                        Build intelligent software<br>
-                        that <span class="text-gradient">transforms</span> your business
+                        We build AI that<br>
+                        actually <span class="text-gradient">works</span>
                     </h1>
                     <p class="hero-description">
-                        We're a US-based software consultancy specializing in custom AI solutions—from
-                        agentic systems to computer vision—and full-stack development. We partner with
-                        forward-thinking companies to build scalable, production-ready software.
+                        No fluff, no buzzwords. We're a software studio obsessed with deploying intelligent systems that solve real problems. Agentic AI, computer vision, full-stack—we build it, we ship it, it runs.
                     </p>
                     <div class="hero-cta">
-                        <a href="#contact" class="btn btn-primary">Start Your Project</a>
-                        <a href="#case-studies" class="btn btn-secondary">View Case Studies</a>
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Start a Project</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#work" class="btn btn-glass">View Our Work</a>
                     </div>
 
-                    <!-- Social Proof -->
-                    <div class="social-proof">
-                        <p class="social-proof-text">Trusted by innovative companies</p>
-                        <div class="client-logos" role="list" aria-label="Client companies">
-                            <div class="client-logo" role="listitem" aria-label="Healthcare Tech Company">HealthTech</div>
-                            <div class="client-logo" role="listitem" aria-label="FinanceAI">FinanceAI</div>
-                            <div class="client-logo" role="listitem" aria-label="RetailCo">RetailCo</div>
-                            <div class="client-logo" role="listitem" aria-label="LogisticsPlus">LogisticsPlus</div>
+                    <!-- Live Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">
+                                <span class="counter" data-target="127">0</span>
+                                <span class="stat-plus">+</span>
+                            </div>
+                            <div class="stat-label">AI models in production</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">
+                                <span class="counter" data-target="15">0</span>
+                                <span class="stat-unit">M</span>
+                            </div>
+                            <div class="stat-label">API calls daily</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">
+                                <span class="counter" data-target="99.8">0</span>
+                                <span class="stat-unit">%</span>
+                            </div>
+                            <div class="stat-label">Uptime SLA</div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Terminal Mockup -->
                 <div class="hero-visual" aria-hidden="true">
-                    <div class="code-window">
-                        <div class="window-header">
-                            <span class="window-dot"></span>
-                            <span class="window-dot"></span>
-                            <span class="window-dot"></span>
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">ai_agent.py</span>
                         </div>
-                        <div class="window-content">
-                            <pre><code><span class="code-comment"># AI-Powered Decision Engine</span>
-<span class="code-keyword">class</span> <span class="code-class">AgenticSystem</span>:
-    <span class="code-keyword">def</span> <span class="code-function">analyze</span>(self, data):
-        insights = self.model.predict(data)
-        actions = self.planner.decide(insights)
-        <span class="code-keyword">return</span> self.execute(actions)</code></pre>
+                        <div class="terminal-body">
+                            <pre><code><span class="comment"># Autonomous AI Agent - Production Ready</span>
+<span class="keyword">from</span> apex.ai <span class="keyword">import</span> Agent, Task, Pipeline
+
+<span class="keyword">class</span> <span class="class-name">CustomerSupportAgent</span>(Agent):
+    <span class="keyword">def</span> <span class="function">process</span>(<span class="param">self</span>, query):
+        <span class="comment"># Analyze intent, retrieve context, generate response</span>
+        context = <span class="param">self</span>.memory.search(query)
+        response = <span class="param">self</span>.model.generate(
+            prompt=query,
+            context=context,
+            temperature=<span class="number">0.7</span>
+        )
+
+        <span class="comment"># Execute actions if needed</span>
+        <span class="keyword">if</span> response.requires_action:
+            <span class="param">self</span>.tools.execute(response.action)
+
+        <span class="keyword">return</span> response.output
+
+<span class="comment"># Deploy to production</span>
+agent = CustomerSupportAgent()
+agent.deploy(environment=<span class="string">"production"</span>) <span class="success">✓</span></code></pre>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Overview -->
-        <section id="services" class="services" aria-labelledby="services-title">
+        <!-- Trust Badges -->
+        <section class="trust-bar" aria-label="Client logos">
             <div class="container">
-                <header class="section-header">
-                    <h2 id="services-title" class="section-title">What We Build</h2>
-                    <p class="section-subtitle">End-to-end software solutions designed for growth</p>
-                </header>
-
-                <div class="services-grid" role="list">
-                    <article class="service-card" role="listitem">
-                        <div class="service-number" aria-hidden="true">01</div>
-                        <h3>Custom AI Solutions</h3>
-                        <p>Production-ready AI systems tailored to your business needs. We don't do cookie-cutter solutions—every model, pipeline, and integration is built specifically for your use case.</p>
-                        <ul class="service-list">
-                            <li>Agentic AI & autonomous systems</li>
-                            <li>Computer vision & object detection</li>
-                            <li>NLP & conversational AI</li>
-                            <li>Predictive analytics & forecasting</li>
-                            <li>Model training & fine-tuning</li>
-                            <li>MLOps & deployment infrastructure</li>
-                        </ul>
-                        <a href="#ai-expertise" class="service-link" aria-label="Learn more about our AI solutions">
-                            Explore AI Expertise <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
-
-                    <article class="service-card" role="listitem">
-                        <div class="service-number" aria-hidden="true">02</div>
-                        <h3>Web Development</h3>
-                        <p>Modern web applications built with React, Next.js, and Node.js. Fast, scalable, and maintainable code that your team can grow with.</p>
-                        <ul class="service-list">
-                            <li>Single-page applications (SPAs)</li>
-                            <li>Progressive web apps (PWAs)</li>
-                            <li>API development & integration</li>
-                            <li>E-commerce platforms</li>
-                            <li>Content management systems</li>
-                            <li>Performance optimization</li>
-                        </ul>
-                        <a href="#contact" class="service-link" aria-label="Discuss web development project">
-                            Discuss Your Project <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
-
-                    <article class="service-card" role="listitem">
-                        <div class="service-number" aria-hidden="true">03</div>
-                        <h3>Mobile Development</h3>
-                        <p>Native iOS and Android apps, plus cross-platform solutions with React Native and Flutter. Beautiful interfaces backed by robust architecture.</p>
-                        <ul class="service-list">
-                            <li>iOS (Swift, SwiftUI)</li>
-                            <li>Android (Kotlin, Jetpack Compose)</li>
-                            <li>React Native & Flutter</li>
-                            <li>Mobile-first design</li>
-                            <li>Offline-first architecture</li>
-                            <li>App Store optimization</li>
-                        </ul>
-                        <a href="#contact" class="service-link" aria-label="Discuss mobile development project">
-                            Discuss Your Project <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
-
-                    <article class="service-card" role="listitem">
-                        <div class="service-number" aria-hidden="true">04</div>
-                        <h3>Backend & Infrastructure</h3>
-                        <p>Scalable backend systems and cloud infrastructure that grow with your users. Built for reliability, security, and performance.</p>
-                        <ul class="service-list">
-                            <li>RESTful & GraphQL APIs</li>
-                            <li>Microservices architecture</li>
-                            <li>Database design & optimization</li>
-                            <li>AWS, GCP, Azure deployment</li>
-                            <li>CI/CD pipelines</li>
-                            <li>Security & compliance</li>
-                        </ul>
-                        <a href="#contact" class="service-link" aria-label="Discuss backend development project">
-                            Discuss Your Project <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
-
-                    <article class="service-card" role="listitem">
-                        <div class="service-number" aria-hidden="true">05</div>
-                        <h3>Game Development</h3>
-                        <p>Engaging gaming experiences across platforms. From casual mobile games to complex 3D environments with Unity and Unreal Engine.</p>
-                        <ul class="service-list">
-                            <li>Unity & Unreal Engine development</li>
-                            <li>2D & 3D game design</li>
-                            <li>Multiplayer networking</li>
-                            <li>Game physics & AI</li>
-                            <li>Cross-platform deployment</li>
-                            <li>Monetization strategy</li>
-                        </ul>
-                        <a href="#contact" class="service-link" aria-label="Discuss game development project">
-                            Discuss Your Project <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
-
-                    <article class="service-card service-card-highlight" role="listitem">
-                        <div class="service-number" aria-hidden="true">06</div>
-                        <h3>Technical Consulting</h3>
-                        <p>Strategic guidance for your technology decisions. Architecture reviews, technology selection, team augmentation, and technical due diligence.</p>
-                        <ul class="service-list">
-                            <li>Architecture design & review</li>
-                            <li>Technology stack selection</li>
-                            <li>Code audits & refactoring</li>
-                            <li>Team training & workshops</li>
-                            <li>Technical due diligence</li>
-                            <li>CTO advisory services</li>
-                        </ul>
-                        <a href="#contact" class="service-link" aria-label="Schedule a consultation">
-                            Schedule a Consultation <span aria-hidden="true">→</span>
-                        </a>
-                    </article>
+                <p class="trust-label">Trusted by teams at</p>
+                <div class="trust-logos">
+                    <div class="trust-logo">TechCorp</div>
+                    <div class="trust-logo">HealthAI</div>
+                    <div class="trust-logo">FinanceFlow</div>
+                    <div class="trust-logo">DataStream</div>
+                    <div class="trust-logo">LogiTech</div>
                 </div>
             </div>
         </section>
 
-        <!-- AI Expertise Section -->
-        <section id="ai-expertise" class="ai-expertise" aria-labelledby="ai-title">
+        <!-- Work Section -->
+        <section id="work" class="work" aria-labelledby="work-title">
             <div class="container">
                 <header class="section-header">
-                    <p class="section-badge">Our Specialty</p>
-                    <h2 id="ai-title" class="section-title">AI Expertise That Delivers Results</h2>
-                    <p class="section-subtitle">
-                        We don't just implement AI—we build systems that solve real business problems.
-                        Here's where we excel.
-                    </p>
+                    <h2 id="work-title" class="section-title">Stuff We've Shipped</h2>
+                    <p class="section-subtitle">Real projects, real code, real impact. Here's what we've deployed to production.</p>
                 </header>
 
-                <div class="ai-grid">
-                    <article class="ai-card ai-card-featured">
-                        <div class="ai-icon" aria-hidden="true">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
-                                <circle cx="32" cy="32" r="28" fill="#2563eb" opacity="0.1"/>
-                                <path d="M32 20v24M20 32h24" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-                                <circle cx="32" cy="20" r="3" fill="#2563eb"/>
-                                <circle cx="32" cy="44" r="3" fill="#2563eb"/>
-                                <circle cx="44" cy="32" r="3" fill="#2563eb"/>
-                                <circle cx="20" cy="32" r="3" fill="#2563eb"/>
-                            </svg>
+                <div class="work-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card featured">
+                        <div class="project-tag">
+                            <span class="tag-icon">⚡</span>
+                            <span>Agentic AI</span>
                         </div>
-                        <h3>Agentic AI Systems</h3>
-                        <p>
-                            We build autonomous AI agents that can reason, plan, and take action. These aren't
-                            simple chatbots—they're sophisticated systems that can handle complex workflows,
-                            make decisions based on context, and integrate with your existing tools.
+                        <h3>HealthScan AI — Medical Imaging Analysis</h3>
+                        <p class="project-desc">
+                            Built a computer vision pipeline that analyzes X-rays and CT scans 4.2x faster than manual review. Deployed across 12 hospitals, processing 10K+ scans weekly.
                         </p>
-                        <div class="ai-use-cases">
-                            <h4>Recent Implementations:</h4>
-                            <ul>
-                                <li><strong>Customer Support Automation:</strong> Reduced ticket volume by 67% for a SaaS company</li>
-                                <li><strong>Document Processing:</strong> Automated legal document review saving 100+ hours/week</li>
-                                <li><strong>Sales Intelligence:</strong> AI-powered lead qualification increasing conversion by 43%</li>
-                            </ul>
-                        </div>
-                        <div class="tech-stack">
-                            <span class="tech-badge">LangChain</span>
-                            <span class="tech-badge">OpenAI</span>
-                            <span class="tech-badge">Anthropic Claude</span>
-                            <span class="tech-badge">Custom Models</span>
-                        </div>
-                    </article>
 
-                    <article class="ai-card">
-                        <div class="ai-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                                <rect width="48" height="48" rx="12" fill="#2563eb" opacity="0.1"/>
-                                <path d="M24 16l-6 6 6 6m0-12l6 6-6 6" stroke="#2563eb" stroke-width="2.5"/>
-                                <circle cx="24" cy="24" r="2.5" fill="#2563eb"/>
-                            </svg>
-                        </div>
-                        <h3>Computer Vision</h3>
-                        <p>
-                            Object detection, image classification, facial recognition, and OCR. We've deployed
-                            vision systems processing millions of images in production.
-                        </p>
-                        <ul class="ai-capabilities">
-                            <li>Real-time object detection & tracking</li>
-                            <li>Document OCR & data extraction</li>
-                            <li>Quality control & defect detection</li>
-                            <li>Facial recognition & biometrics</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-badge">TensorFlow</span>
-                            <span class="tech-badge">PyTorch</span>
-                            <span class="tech-badge">YOLO</span>
-                            <span class="tech-badge">OpenCV</span>
-                        </div>
-                    </article>
-
-                    <article class="ai-card">
-                        <div class="ai-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                                <rect width="48" height="48" rx="12" fill="#2563eb" opacity="0.1"/>
-                                <path d="M16 28c3-4 6-4 9 0s6 4 9 0M16 20c3-4 6-4 9 0s6 4 9 0" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <h3>Natural Language Processing</h3>
-                        <p>
-                            Text analysis, sentiment detection, language understanding, and generation. We build
-                            NLP systems that actually understand context and nuance.
-                        </p>
-                        <ul class="ai-capabilities">
-                            <li>Conversational AI & chatbots</li>
-                            <li>Sentiment analysis at scale</li>
-                            <li>Named entity recognition</li>
-                            <li>Text summarization & generation</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-badge">Transformers</span>
-                            <span class="tech-badge">BERT</span>
-                            <span class="tech-badge">GPT</span>
-                            <span class="tech-badge">spaCy</span>
-                        </div>
-                    </article>
-
-                    <article class="ai-card">
-                        <div class="ai-icon" aria-hidden="true">
-                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                                <rect width="48" height="48" rx="12" fill="#2563eb" opacity="0.1"/>
-                                <path d="M16 32l4-8 4 4 4-6 4 2" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <h3>Predictive Analytics</h3>
-                        <p>
-                            Machine learning models for forecasting, anomaly detection, and pattern recognition.
-                            Turn your data into actionable insights.
-                        </p>
-                        <ul class="ai-capabilities">
-                            <li>Time series forecasting</li>
-                            <li>Churn prediction & prevention</li>
-                            <li>Demand forecasting</li>
-                            <li>Fraud detection</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span class="tech-badge">scikit-learn</span>
-                            <span class="tech-badge">XGBoost</span>
-                            <span class="tech-badge">Prophet</span>
-                            <span class="tech-badge">AutoML</span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="cta-box">
-                    <h3>Ready to leverage AI in your product?</h3>
-                    <p>Let's discuss how custom AI solutions can give you a competitive advantage.</p>
-                    <a href="#contact" class="btn btn-primary">Schedule a Free Consultation</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Case Studies -->
-        <section id="case-studies" class="case-studies" aria-labelledby="case-studies-title">
-            <div class="container">
-                <header class="section-header">
-                    <h2 id="case-studies-title" class="section-title">Case Studies</h2>
-                    <p class="section-subtitle">Real projects, real results. Here's how we've helped companies build better software.</p>
-                </header>
-
-                <div class="case-studies-grid">
-                    <article class="case-study-card">
-                        <div class="case-study-tag">AI • Healthcare</div>
-                        <h3>Medical Imaging Analysis Platform</h3>
-                        <p class="case-study-description">
-                            Built a computer vision system for a healthcare startup to analyze medical scans,
-                            reducing diagnosis time and improving accuracy.
-                        </p>
-                        <div class="case-study-metrics">
-                            <div class="metric">
-                                <div class="metric-value">87%</div>
-                                <div class="metric-label">Accuracy Rate</div>
+                        <div class="project-metrics">
+                            <div class="metric-card">
+                                <div class="metric-num">89.4%</div>
+                                <div class="metric-label">Accuracy</div>
                             </div>
-                            <div class="metric">
-                                <div class="metric-value">4.2x</div>
-                                <div class="metric-label">Faster Analysis</div>
+                            <div class="metric-card">
+                                <div class="metric-num">4.2x</div>
+                                <div class="metric-label">Faster</div>
                             </div>
-                            <div class="metric">
-                                <div class="metric-value">$2M</div>
-                                <div class="metric-label">Series A Raised</div>
+                            <div class="metric-card">
+                                <div class="metric-num">$3.2M</div>
+                                <div class="metric-label">Raised</div>
                             </div>
                         </div>
-                        <div class="case-study-tech">
-                            <span>PyTorch</span>
-                            <span>FastAPI</span>
-                            <span>React</span>
-                            <span>AWS</span>
+
+                        <div class="project-stack">
+                            <span class="stack-badge">PyTorch</span>
+                            <span class="stack-badge">FastAPI</span>
+                            <span class="stack-badge">React</span>
+                            <span class="stack-badge">PostgreSQL</span>
                         </div>
-                        <blockquote class="testimonial">
-                            <p>"The AI system they built became the core of our product. Their expertise in both computer vision and healthcare compliance was invaluable."</p>
-                            <cite>— Dr. Sarah Chen, CTO, HealthTech</cite>
+
+                        <blockquote class="project-quote">
+                            <p>"The system they built became our entire product. We raised our Series A two months after launch."</p>
+                            <cite>— Dr. Sarah Chen, CTO @ HealthScan</cite>
                         </blockquote>
                     </article>
 
-                    <article class="case-study-card">
-                        <div class="case-study-tag">Agentic AI • FinTech</div>
-                        <h3>Intelligent Financial Assistant</h3>
-                        <p class="case-study-description">
-                            Developed an AI agent that automates investment research and portfolio recommendations
-                            for a wealth management firm.
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-tag">
+                            <span class="tag-icon">🤖</span>
+                            <span>Agentic System</span>
+                        </div>
+                        <h3>InvestIQ — Financial Research Agent</h3>
+                        <p class="project-desc">
+                            Autonomous AI agent that reads financial docs, analyzes markets, and generates investment insights. Handles 200+ research requests daily.
                         </p>
-                        <div class="case-study-metrics">
-                            <div class="metric">
-                                <div class="metric-value">67%</div>
+
+                        <div class="project-metrics">
+                            <div class="metric-card">
+                                <div class="metric-num">78%</div>
                                 <div class="metric-label">Time Saved</div>
                             </div>
-                            <div class="metric">
-                                <div class="metric-value">23%</div>
-                                <div class="metric-label">Better Returns</div>
-                            </div>
-                            <div class="metric">
-                                <div class="metric-value">10K</div>
-                                <div class="metric-label">Active Users</div>
+                            <div class="metric-card">
+                                <div class="metric-num">200+</div>
+                                <div class="metric-label">Daily Tasks</div>
                             </div>
                         </div>
-                        <div class="case-study-tech">
-                            <span>LangChain</span>
-                            <span>OpenAI</span>
-                            <span>PostgreSQL</span>
-                            <span>Next.js</span>
+
+                        <div class="project-stack">
+                            <span class="stack-badge">LangChain</span>
+                            <span class="stack-badge">Claude</span>
+                            <span class="stack-badge">Pinecone</span>
+                            <span class="stack-badge">Next.js</span>
                         </div>
-                        <blockquote class="testimonial">
-                            <p>"They didn't just build what we asked for—they helped us understand what we actually needed. The AI agent has transformed how our advisors work."</p>
-                            <cite>— Michael Rodriguez, VP of Product, FinanceAI</cite>
-                        </blockquote>
                     </article>
 
-                    <article class="case-study-card">
-                        <div class="case-study-tag">E-commerce • Mobile</div>
-                        <h3>AI-Powered Shopping App</h3>
-                        <p class="case-study-description">
-                            Created a cross-platform mobile app with personalized recommendations using ML,
-                            increasing conversion rates and customer satisfaction.
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-tag">
+                            <span class="tag-icon">📱</span>
+                            <span>Mobile + ML</span>
+                        </div>
+                        <h3>ShopSmart — AI Shopping Assistant</h3>
+                        <p class="project-desc">
+                            Mobile app with personalized ML recommendations. Increased conversion 156% and hit 4.8★ rating with 500K downloads in 6 months.
                         </p>
-                        <div class="case-study-metrics">
-                            <div class="metric">
-                                <div class="metric-value">156%</div>
-                                <div class="metric-label">Conversion Lift</div>
+
+                        <div class="project-metrics">
+                            <div class="metric-card">
+                                <div class="metric-num">156%</div>
+                                <div class="metric-label">Conv. Lift</div>
                             </div>
-                            <div class="metric">
-                                <div class="metric-value">4.8★</div>
-                                <div class="metric-label">App Store Rating</div>
-                            </div>
-                            <div class="metric">
-                                <div class="metric-value">500K</div>
-                                <div class="metric-label">Downloads</div>
+                            <div class="metric-card">
+                                <div class="metric-num">4.8★</div>
+                                <div class="metric-label">Rating</div>
                             </div>
                         </div>
-                        <div class="case-study-tech">
-                            <span>React Native</span>
-                            <span>TensorFlow</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
+
+                        <div class="project-stack">
+                            <span class="stack-badge">React Native</span>
+                            <span class="stack-badge">TensorFlow</span>
+                            <span class="stack-badge">Node.js</span>
                         </div>
-                        <blockquote class="testimonial">
-                            <p>"The recommendation engine is incredibly accurate. Our customers love it, and it's driven significant revenue growth."</p>
-                            <cite>— Jessica Park, CEO, RetailCo</cite>
-                        </blockquote>
                     </article>
 
-                    <article class="case-study-card">
-                        <div class="case-study-tag">Computer Vision • Logistics</div>
-                        <h3>Warehouse Automation System</h3>
-                        <p class="case-study-description">
-                            Implemented computer vision for inventory management, enabling real-time tracking
-                            and reducing manual counting errors.
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-tag">
+                            <span class="tag-icon">👁️</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <h3>WarehouseVision — Inventory Automation</h3>
+                        <p class="project-desc">
+                            Real-time object detection for warehouse inventory. Reduced counting errors by 94% and saves 45 hours weekly.
                         </p>
-                        <div class="case-study-metrics">
-                            <div class="metric">
-                                <div class="metric-value">92%</div>
-                                <div class="metric-label">Error Reduction</div>
+
+                        <div class="project-metrics">
+                            <div class="metric-card">
+                                <div class="metric-num">94%</div>
+                                <div class="metric-label">Error ↓</div>
                             </div>
-                            <div class="metric">
-                                <div class="metric-value">40hrs</div>
-                                <div class="metric-label">Saved Weekly</div>
-                            </div>
-                            <div class="metric">
-                                <div class="metric-value">8mo</div>
-                                <div class="metric-label">ROI Achieved</div>
+                            <div class="metric-card">
+                                <div class="metric-num">45hrs</div>
+                                <div class="metric-label">Weekly</div>
                             </div>
                         </div>
-                        <div class="case-study-tech">
-                            <span>YOLO</span>
-                            <span>OpenCV</span>
-                            <span>Python</span>
-                            <span>Redis</span>
+
+                        <div class="project-stack">
+                            <span class="stack-badge">YOLO</span>
+                            <span class="stack-badge">OpenCV</span>
+                            <span class="stack-badge">Python</span>
                         </div>
-                        <blockquote class="testimonial">
-                            <p>"The accuracy of the vision system exceeded our expectations. It's been running flawlessly for 18 months."</p>
-                            <cite>— David Kim, Operations Director, LogisticsPlus</cite>
-                        </blockquote>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- Our Approach -->
-        <section id="approach" class="approach" aria-labelledby="approach-title">
+        <!-- Capabilities -->
+        <section id="capabilities" class="capabilities" aria-labelledby="capabilities-title">
             <div class="container">
                 <header class="section-header">
-                    <h2 id="approach-title" class="section-title">How We Work</h2>
-                    <p class="section-subtitle">
-                        Clear process, constant communication, and a focus on delivering value quickly.
-                    </p>
+                    <h2 id="capabilities-title" class="section-title">What We Build</h2>
+                    <p class="section-subtitle">Full-stack development with AI at the core</p>
                 </header>
 
-                <div class="approach-grid">
-                    <div class="approach-step">
-                        <div class="step-number" aria-label="Step 1">01</div>
-                        <h3>Discovery & Strategy</h3>
-                        <p>
-                            We start by understanding your business goals, technical constraints, and user needs.
-                            No project kickoff without clarity on what success looks like.
-                        </p>
-                        <ul class="approach-list">
-                            <li>Stakeholder interviews</li>
-                            <li>Technical requirements gathering</li>
-                            <li>Architecture planning</li>
-                            <li>Project roadmap creation</li>
+                <div class="capabilities-grid">
+                    <div class="capability-card">
+                        <div class="capability-icon">🤖</div>
+                        <h3>Agentic AI Systems</h3>
+                        <p>Autonomous agents that reason, plan, and execute. We build AI that takes action, not just answers questions.</p>
+                        <ul class="capability-list">
+                            <li>Multi-agent orchestration</li>
+                            <li>Tool-calling & function execution</li>
+                            <li>Memory & context management</li>
+                            <li>Production monitoring & observability</li>
                         </ul>
                     </div>
 
-                    <div class="approach-step">
-                        <div class="step-number" aria-label="Step 2">02</div>
-                        <h3>Design & Prototyping</h3>
-                        <p>
-                            We prototype quickly to validate ideas before committing to full development.
-                            This saves time, money, and ensures we're building the right thing.
-                        </p>
-                        <ul class="approach-list">
-                            <li>UX research & wireframing</li>
-                            <li>Interactive prototypes</li>
-                            <li>User testing</li>
-                            <li>Design system creation</li>
+                    <div class="capability-card">
+                        <div class="capability-icon">👁️</div>
+                        <h3>Computer Vision</h3>
+                        <p>Real-time visual intelligence. Object detection, OCR, facial recognition—running at scale in production.</p>
+                        <ul class="capability-list">
+                            <li>Custom model training & fine-tuning</li>
+                            <li>Edge deployment & optimization</li>
+                            <li>Video stream processing</li>
+                            <li>Quality control automation</li>
                         </ul>
                     </div>
 
-                    <div class="approach-step">
-                        <div class="step-number" aria-label="Step 3">03</div>
-                        <h3>Development & Iteration</h3>
-                        <p>
-                            We work in 2-week sprints, shipping working software regularly. You'll see progress
-                            quickly and have opportunities to provide feedback throughout.
-                        </p>
-                        <ul class="approach-list">
-                            <li>Agile development sprints</li>
-                            <li>Code reviews & testing</li>
-                            <li>Regular demos</li>
-                            <li>Continuous integration</li>
+                    <div class="capability-card">
+                        <div class="capability-icon">⚡</div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Web, mobile, backend—we build it all. Modern stack, clean code, scalable architecture.</p>
+                        <ul class="capability-list">
+                            <li>React, Next.js, TypeScript</li>
+                            <li>Node.js, Python, Go backends</li>
+                            <li>React Native & native mobile</li>
+                            <li>Cloud infrastructure (AWS, GCP)</li>
                         </ul>
                     </div>
 
-                    <div class="approach-step">
-                        <div class="step-number" aria-label="Step 4">04</div>
-                        <h3>Deployment & Support</h3>
-                        <p>
-                            We don't disappear after launch. We ensure smooth deployment, monitor performance,
-                            and provide ongoing support as your product grows.
-                        </p>
-                        <ul class="approach-list">
-                            <li>Production deployment</li>
-                            <li>Performance monitoring</li>
-                            <li>Documentation & training</li>
-                            <li>Ongoing maintenance</li>
+                    <div class="capability-card">
+                        <div class="capability-icon">🎮</div>
+                        <h3>Game Development</h3>
+                        <p>Interactive experiences that engage. Unity, Unreal, custom engines—we make games that people play.</p>
+                        <ul class="capability-list">
+                            <li>Unity & Unreal Engine</li>
+                            <li>Multiplayer networking</li>
+                            <li>Game AI & procedural generation</li>
+                            <li>Cross-platform deployment</li>
                         </ul>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="principles-box">
-                    <h3>Our Principles</h3>
-                    <div class="principles-grid">
-                        <div class="principle">
-                            <h4>🎯 User-Focused</h4>
-                            <p>We build for the people who will actually use your software, not for tech trends.</p>
+        <!-- AI Lab Section -->
+        <section id="ai" class="ai-lab" aria-labelledby="ai-title">
+            <div class="container">
+                <header class="section-header-alt">
+                    <div class="section-badge-alt">
+                        <span class="pulse-dot"></span>
+                        <span>Our Specialty</span>
+                    </div>
+                    <h2 id="ai-title" class="section-title-alt">The AI Lab</h2>
+                    <p class="section-subtitle-alt">
+                        This is where we spend most of our time. Building AI that doesn't just demo well—it ships.
+                    </p>
+                </header>
+
+                <div class="ai-showcase">
+                    <!-- Featured: Agentic AI -->
+                    <div class="ai-feature-card">
+                        <div class="ai-feature-header">
+                            <div class="ai-feature-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                    <circle cx="24" cy="24" r="20" stroke="url(#gradient1)" stroke-width="2"/>
+                                    <circle cx="24" cy="24" r="4" fill="url(#gradient1)"/>
+                                    <circle cx="24" cy="12" r="3" fill="url(#gradient1)"/>
+                                    <circle cx="36" cy="24" r="3" fill="url(#gradient1)"/>
+                                    <circle cx="24" cy="36" r="3" fill="url(#gradient1)"/>
+                                    <circle cx="12" cy="24" r="3" fill="url(#gradient1)"/>
+                                    <defs>
+                                        <linearGradient id="gradient1" x1="0" y1="0" x2="48" y2="48">
+                                            <stop offset="0%" stop-color="#06b6d4"/>
+                                            <stop offset="100%" stop-color="#a855f7"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3>Agentic AI — Autonomous Systems</h3>
+                                <p class="ai-feature-tagline">AI that takes action, not just generates text</p>
+                            </div>
                         </div>
-                        <div class="principle">
-                            <h4>⚡ Ship Fast</h4>
-                            <p>Working software beats perfect plans. We deliver value quickly and iterate.</p>
+
+                        <p class="ai-feature-desc">
+                            We build autonomous agents that can reason about problems, plan solutions, use tools, and execute tasks. Think ChatGPT that can actually do things—schedule meetings, write and run code, analyze data, make API calls.
+                        </p>
+
+                        <div class="ai-use-case-grid">
+                            <div class="use-case">
+                                <h4>Customer Support Automation</h4>
+                                <p>Agent handles 67% of tickets autonomously, escalates complex issues to humans with full context.</p>
+                                <div class="use-case-result">Result: 100+ hours saved weekly</div>
+                            </div>
+                            <div class="use-case">
+                                <h4>Legal Document Review</h4>
+                                <p>Analyzes contracts, extracts key terms, flags issues, generates summaries in minutes instead of hours.</p>
+                                <div class="use-case-result">Result: 12x faster processing</div>
+                            </div>
+                            <div class="use-case">
+                                <h4>Sales Intelligence</h4>
+                                <p>Researches prospects, qualifies leads, drafts personalized outreach. Increased conversion 43%.</p>
+                                <div class="use-case-result">Result: 43% higher conversion</div>
+                            </div>
                         </div>
-                        <div class="principle">
-                            <h4>🔍 Quality Code</h4>
-                            <p>Clean, tested, maintainable code that your team can understand and extend.</p>
-                        </div>
-                        <div class="principle">
-                            <h4>💬 Clear Communication</h4>
-                            <p>No jargon, no surprises. You'll always know what we're building and why.</p>
+
+                        <div class="tech-showcase">
+                            <div class="tech-badge-fancy">LangChain</div>
+                            <div class="tech-badge-fancy">Claude 3.5</div>
+                            <div class="tech-badge-fancy">GPT-4</div>
+                            <div class="tech-badge-fancy">Custom Models</div>
+                            <div class="tech-badge-fancy">Pinecone</div>
+                            <div class="tech-badge-fancy">ChromaDB</div>
                         </div>
                     </div>
+
+                    <!-- Other AI Capabilities -->
+                    <div class="ai-cards-row">
+                        <div class="ai-mini-card">
+                            <h4>🧠 NLP & LLMs</h4>
+                            <p>Text analysis, sentiment detection, summarization, RAG systems. We make language models actually useful.</p>
+                        </div>
+                        <div class="ai-mini-card">
+                            <h4>📊 Predictive ML</h4>
+                            <p>Forecasting, anomaly detection, recommendation engines. Models that predict what happens next.</p>
+                        </div>
+                        <div class="ai-mini-card">
+                            <h4>🔧 MLOps</h4>
+                            <p>Model deployment, monitoring, versioning, A/B testing. Getting AI from Jupyter to production.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-box-alt">
+                    <div class="cta-content">
+                        <h3>Want to build something intelligent?</h3>
+                        <p>Let's talk about your AI project. We'll figure out if it's doable, how to build it, and what it'll cost.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-cta">
+                        <span>Book a Call</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </section>
@@ -592,135 +468,104 @@
         <!-- Contact Section -->
         <section id="contact" class="contact" aria-labelledby="contact-title">
             <div class="container">
-                <div class="contact-grid">
+                <div class="contact-layout">
                     <div class="contact-info">
-                        <h2 id="contact-title" class="section-title">Let's Build Something Great</h2>
+                        <h2 id="contact-title" class="contact-title">Let's Build Something</h2>
                         <p class="contact-lead">
-                            Have a project in mind? We'd love to hear about it. Whether you need AI integration,
-                            a complete software solution, or technical guidance, we're here to help.
+                            Got an idea? A problem to solve? Let's talk. We respond to every inquiry within 24 hours.
                         </p>
 
                         <div class="contact-methods">
-                            <div class="contact-method">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                            <a href="mailto:hello@apexlabs.dev" class="contact-method-card">
+                                <div class="method-icon">📧</div>
                                 <div>
-                                    <h3>Email</h3>
-                                    <a href="mailto:hello@apexai.dev">hello@apexai.dev</a>
+                                    <div class="method-label">Email us</div>
+                                    <div class="method-value">hello@apexlabs.dev</div>
                                 </div>
-                            </div>
+                            </a>
 
-                            <div class="contact-method">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                            <a href="tel:+14155551234" class="contact-method-card">
+                                <div class="method-icon">📱</div>
                                 <div>
-                                    <h3>Phone</h3>
-                                    <a href="tel:+14155551234">+1 (415) 555-1234</a>
+                                    <div class="method-label">Call us</div>
+                                    <div class="method-value">+1 (415) 555-1234</div>
                                 </div>
-                            </div>
+                            </a>
 
-                            <div class="contact-method">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                            <div class="contact-method-card">
+                                <div class="method-icon">📍</div>
                                 <div>
-                                    <h3>Location</h3>
-                                    <p>San Francisco, CA</p>
+                                    <div class="method-label">Based in</div>
+                                    <div class="method-value">San Francisco, CA</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="contact-availability">
-                            <p><strong>Typical response time:</strong> Within 24 hours</p>
-                            <p><strong>Time zone:</strong> Pacific Time (PT)</p>
+                        <div class="availability-badge">
+                            <span class="status-dot"></span>
+                            <span>Usually respond within 4 hours</span>
                         </div>
                     </div>
 
-                    <div class="contact-form-container">
-                        <form class="contact-form" id="contact-form" aria-label="Contact form">
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="name">Name <span class="required" aria-label="required">*</span></label>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        name="name"
-                                        required
-                                        aria-required="true"
-                                        autocomplete="name"
-                                    >
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email <span class="required" aria-label="required">*</span></label>
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        name="email"
-                                        required
-                                        aria-required="true"
-                                        autocomplete="email"
-                                    >
-                                </div>
+                    <form class="contact-form-modern" id="contact-form" aria-label="Contact form">
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
                             </div>
 
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="company">Company</label>
-                                    <input
-                                        type="text"
-                                        id="company"
-                                        name="company"
-                                        autocomplete="organization"
-                                    >
-                                </div>
-                                <div class="form-group">
-                                    <label for="budget">Project Budget</label>
-                                    <select id="budget" name="budget">
-                                        <option value="">Select range</option>
-                                        <option value="under-50k">Under $50K</option>
-                                        <option value="50k-100k">$50K - $100K</option>
-                                        <option value="100k-250k">$100K - $250K</option>
-                                        <option value="250k-plus">$250K+</option>
-                                    </select>
-                                </div>
+                            <div class="form-field">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company" autocomplete="organization">
                             </div>
 
-                            <div class="form-group">
-                                <label for="services">Services Interested In</label>
-                                <select id="services" name="services">
-                                    <option value="">Select a service</option>
-                                    <option value="ai-solutions">Custom AI Solutions</option>
-                                    <option value="web-development">Web Development</option>
-                                    <option value="mobile-development">Mobile Development</option>
-                                    <option value="backend-infrastructure">Backend & Infrastructure</option>
-                                    <option value="game-development">Game Development</option>
-                                    <option value="technical-consulting">Technical Consulting</option>
-                                    <option value="not-sure">Not sure yet</option>
+                            <div class="form-field">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select...</option>
+                                    <option value="under-50k">< $50K</option>
+                                    <option value="50k-100k">$50K - $100K</option>
+                                    <option value="100k-250k">$100K - $250K</option>
+                                    <option value="250k-plus">$250K+</option>
                                 </select>
                             </div>
+                        </div>
 
-                            <div class="form-group">
-                                <label for="message">Tell us about your project <span class="required" aria-label="required">*</span></label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    rows="5"
-                                    required
-                                    aria-required="true"
-                                    placeholder="What are you looking to build? What problem are you trying to solve?"
-                                ></textarea>
-                            </div>
+                        <div class="form-field">
+                            <label for="interested">What are you interested in?</label>
+                            <select id="interested" name="interested">
+                                <option value="">Select...</option>
+                                <option value="agentic-ai">Agentic AI / LLM Systems</option>
+                                <option value="computer-vision">Computer Vision</option>
+                                <option value="web">Web Application</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="game">Game Development</option>
+                                <option value="consulting">Technical Consulting</option>
+                                <option value="other">Something else</option>
+                            </select>
+                        </div>
 
-                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        <div class="form-field">
+                            <label for="message">Tell us about your project *</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="What are you building? What problem are you solving?"></textarea>
+                        </div>
 
-                            <p class="form-privacy">
-                                <small>We respect your privacy. Your information will never be shared with third parties.</small>
-                            </p>
-                        </form>
-                    </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+
+                        <p class="form-note">We respect your privacy. No spam, ever.</p>
+                    </form>
                 </div>
             </div>
         </section>
@@ -729,60 +574,61 @@
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
+            <div class="footer-grid">
+                <div class="footer-brand">
                     <div class="footer-logo">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <rect width="48" height="48" rx="10" fill="#2563eb"/>
-                            <path d="M24 14L32 20V28L24 34L16 28V20L24 14Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <circle cx="24" cy="24" r="3" fill="white"/>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="footer-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06b6d4"/>
+                                    <stop offset="100%" style="stop-color:#a855f7"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M20 5L35 15L35 25L20 35L5 25L5 15L20 5Z" fill="url(#footer-gradient)"/>
+                            <circle cx="20" cy="20" r="4" fill="white"/>
                         </svg>
-                        <span class="logo-text">Apex<span class="logo-accent">AI</span></span>
+                        <span>apex<span class="accent">labs</span></span>
                     </div>
                     <p class="footer-tagline">
-                        Custom AI and software development for companies that want to build the future.
+                        AI-first software studio.<br>We build, we ship, it works.
                     </p>
                 </div>
 
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#ai-expertise">AI Solutions</a></li>
-                        <li><a href="#services">Web Development</a></li>
-                        <li><a href="#services">Mobile Development</a></li>
-                        <li><a href="#services">Backend & Infrastructure</a></li>
-                        <li><a href="#services">Game Development</a></li>
-                    </ul>
-                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>Work</h4>
+                        <ul>
+                            <li><a href="#work">Case Studies</a></li>
+                            <li><a href="#ai">AI Lab</a></li>
+                            <li><a href="#capabilities">Capabilities</a></li>
+                        </ul>
+                    </div>
 
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="#approach">Our Approach</a></li>
-                        <li><a href="#case-studies">Case Studies</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
 
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                        <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                        <li><a href="mailto:hello@apexai.dev">Email</a></li>
-                    </ul>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                            <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+                            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2024 ApexAI. All rights reserved.</p>
+                <p>&copy; 2024 Apex Labs. We build cool stuff.</p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Accessibility</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
                 </div>
             </div>
         </div>
