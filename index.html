@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Solutions & Software Development | Your Company Name</title>
+    <meta name="description" content="Leading software vendor specializing in AI solutions, web development, mobile apps, backend systems, and game development. Custom solutions for your business needs.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="url(#gradient)"/>
+                            <path d="M20 10L28 16V24L20 30L12 24V16L20 10Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                            <defs>
+                                <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
+                                    <stop offset="0%" stop-color="#6366f1"/>
+                                    <stop offset="100%" stop-color="#8b5cf6"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="logo-text">TechVenture</span>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#ai-solutions" class="nav-link">AI Solutions</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">AI-Powered</span> Solutions<br>
+                    For Your Digital Future
+                </h1>
+                <p class="hero-subtitle">
+                    We craft cutting-edge AI solutions, intelligent applications, and scalable software
+                    that transform businesses. From agentic AI to computer vision, we bring
+                    state-of-the-art technology to your fingertips.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary btn-large">Start Your Project</a>
+                    <a href="#ai-solutions" class="btn btn-outline btn-large">Explore AI Solutions</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Projects Delivered</p>
+                    </div>
+                    <div class="stat">
+                        <h3>200+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon">🤖</div>
+                    <div class="card-content">
+                        <h4>AI Agents</h4>
+                        <p>Autonomous systems</p>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">👁️</div>
+                    <div class="card-content">
+                        <h4>Computer Vision</h4>
+                        <p>Visual intelligence</p>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">📱</div>
+                    <div class="card-content">
+                        <h4>Mobile Apps</h4>
+                        <p>Native & cross-platform</p>
+                    </div>
+                </div>
+                <div class="hero-circle"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive software solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#eef2ff"/>
+                            <path d="M24 16v16m-8-8h16" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites and web applications built with the latest technologies. We create scalable solutions that grow with your business.</p>
+                    <ul class="service-features">
+                        <li>React, Vue, Angular</li>
+                        <li>Progressive Web Apps</li>
+                        <li>E-commerce Solutions</li>
+                        <li>Custom CMS</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#f0fdf4"/>
+                            <rect x="16" y="12" width="16" height="24" rx="2" stroke="#22c55e" stroke-width="2"/>
+                            <path d="M20 16h8M20 20h8M20 24h5" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android devices.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Native</li>
+                        <li>React Native & Flutter</li>
+                        <li>App Store Optimization</li>
+                        <li>Mobile UI/UX Design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#fef3c7"/>
+                            <rect x="14" y="14" width="20" height="20" rx="2" stroke="#f59e0b" stroke-width="2"/>
+                            <path d="M14 20h20M20 14v20" stroke="#f59e0b" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Robust, secure, and scalable backend systems that power your applications with reliability and performance.</p>
+                    <ul class="service-features">
+                        <li>RESTful & GraphQL APIs</li>
+                        <li>Microservices Architecture</li>
+                        <li>Cloud Infrastructure</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#fce7f3"/>
+                            <circle cx="24" cy="24" r="8" stroke="#ec4899" stroke-width="2"/>
+                            <path d="M24 16v3m0 10v3m8-8h-3m-10 0h-3" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>Engaging and immersive gaming experiences across platforms, from mobile casual games to complex 3D environments.</p>
+                    <ul class="service-features">
+                        <li>Unity & Unreal Engine</li>
+                        <li>2D & 3D Game Design</li>
+                        <li>Multiplayer Systems</li>
+                        <li>Game Monetization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Solutions Section -->
+    <section id="ai-solutions" class="ai-solutions">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Our Specialty</div>
+                <h2 class="section-title">Custom AI Solutions</h2>
+                <p class="section-subtitle">
+                    Cutting-edge artificial intelligence tailored to solve your unique business challenges
+                </p>
+            </div>
+
+            <div class="ai-grid">
+                <div class="ai-card featured">
+                    <div class="ai-card-header">
+                        <div class="ai-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="28" fill="url(#ai-gradient)"/>
+                                <path d="M32 20v24M20 32h24" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                <circle cx="32" cy="20" r="3" fill="white"/>
+                                <circle cx="32" cy="44" r="3" fill="white"/>
+                                <circle cx="44" cy="32" r="3" fill="white"/>
+                                <circle cx="20" cy="32" r="3" fill="white"/>
+                                <defs>
+                                    <linearGradient id="ai-gradient" x1="4" y1="4" x2="60" y2="60">
+                                        <stop offset="0%" stop-color="#6366f1"/>
+                                        <stop offset="100%" stop-color="#8b5cf6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Agentic AI Systems</h3>
+                    </div>
+                    <p>Autonomous AI agents that can reason, plan, and execute complex tasks. Perfect for intelligent automation, decision-making systems, and adaptive workflows.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Multi-Agent Systems</span>
+                        <span class="feature-tag">LLM Integration</span>
+                        <span class="feature-tag">Autonomous Decision Making</span>
+                        <span class="feature-tag">Workflow Automation</span>
+                    </div>
+                </div>
+
+                <div class="ai-card">
+                    <div class="ai-card-header">
+                        <div class="ai-icon secondary">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="#eef2ff"/>
+                                <path d="M24 16l-8 8 8 8m0-16l8 8-8 8" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="24" cy="24" r="3" fill="#6366f1"/>
+                            </svg>
+                        </div>
+                        <h3>Computer Vision</h3>
+                    </div>
+                    <p>Advanced visual recognition and analysis systems for object detection, facial recognition, image classification, and more.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Object Detection</span>
+                        <span class="feature-tag">OCR & Document Analysis</span>
+                        <span class="feature-tag">Facial Recognition</span>
+                    </div>
+                </div>
+
+                <div class="ai-card">
+                    <div class="ai-card-header">
+                        <div class="ai-icon secondary">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="#f0fdf4"/>
+                                <path d="M16 28c4-6 8-6 12 0s8 6 12 0" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M16 20c4-6 8-6 12 0s8 6 12 0" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Natural Language Processing</h3>
+                    </div>
+                    <p>Intelligent text analysis, chatbots, sentiment analysis, and language understanding systems powered by state-of-the-art NLP models.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Conversational AI</span>
+                        <span class="feature-tag">Sentiment Analysis</span>
+                        <span class="feature-tag">Text Generation</span>
+                    </div>
+                </div>
+
+                <div class="ai-card">
+                    <div class="ai-card-header">
+                        <div class="ai-icon secondary">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="#fef3c7"/>
+                                <path d="M24 14v20M14 24h20" stroke="#f59e0b" stroke-width="2"/>
+                                <circle cx="18" cy="18" r="2" fill="#f59e0b"/>
+                                <circle cx="30" cy="18" r="2" fill="#f59e0b"/>
+                                <circle cx="24" cy="30" r="2" fill="#f59e0b"/>
+                            </svg>
+                        </div>
+                        <h3>Predictive Analytics</h3>
+                    </div>
+                    <p>Machine learning models for forecasting, pattern recognition, and data-driven insights to power your business intelligence.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Time Series Forecasting</span>
+                        <span class="feature-tag">Anomaly Detection</span>
+                        <span class="feature-tag">Custom ML Models</span>
+                    </div>
+                </div>
+
+                <div class="ai-card">
+                    <div class="ai-card-header">
+                        <div class="ai-icon secondary">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="#fce7f3"/>
+                                <rect x="16" y="16" width="16" height="16" rx="2" stroke="#ec4899" stroke-width="2"/>
+                                <path d="M20 24h8M24 20v8" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Recommendation Systems</h3>
+                    </div>
+                    <p>Personalized recommendation engines that increase engagement and conversion through intelligent content and product suggestions.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Collaborative Filtering</span>
+                        <span class="feature-tag">Content-Based</span>
+                        <span class="feature-tag">Hybrid Models</span>
+                    </div>
+                </div>
+
+                <div class="ai-card">
+                    <div class="ai-card-header">
+                        <div class="ai-icon secondary">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="#ede9fe"/>
+                                <circle cx="24" cy="24" r="8" stroke="#8b5cf6" stroke-width="2"/>
+                                <path d="M24 16v8l4 4" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Custom AI Solutions</h3>
+                    </div>
+                    <p>Bespoke AI solutions designed specifically for your unique challenges, from research to production deployment.</p>
+                    <div class="ai-features">
+                        <span class="feature-tag">Model Training</span>
+                        <span class="feature-tag">Fine-tuning</span>
+                        <span class="feature-tag">MLOps</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai-cta">
+                <h3>Ready to leverage AI for your business?</h3>
+                <p>Let's discuss how our custom AI solutions can transform your operations</p>
+                <a href="#contact" class="btn btn-primary btn-large">Schedule a Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing our best work across different industries</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>AI-Powered Healthcare Platform</h4>
+                            <p>Computer vision for medical imaging analysis</p>
+                            <div class="portfolio-tags">
+                                <span>AI</span>
+                                <span>Computer Vision</span>
+                                <span>Healthcare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>E-Commerce Mobile App</h4>
+                            <p>Cross-platform shopping experience with AI recommendations</p>
+                            <div class="portfolio-tags">
+                                <span>Mobile</span>
+                                <span>AI</span>
+                                <span>E-commerce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Intelligent Chatbot System</h4>
+                            <p>Multi-language customer support with NLP</p>
+                            <div class="portfolio-tags">
+                                <span>Agentic AI</span>
+                                <span>NLP</span>
+                                <span>Customer Service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Multiplayer Game Platform</h4>
+                            <p>Real-time 3D gaming with cloud infrastructure</p>
+                            <div class="portfolio-tags">
+                                <span>Game Dev</span>
+                                <span>Backend</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Financial Analytics Dashboard</h4>
+                            <p>Predictive models for investment insights</p>
+                            <div class="portfolio-tags">
+                                <span>Web</span>
+                                <span>AI</span>
+                                <span>Finance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h4>Smart Warehouse System</h4>
+                            <p>Computer vision for inventory management</p>
+                            <div class="portfolio-tags">
+                                <span>Computer Vision</span>
+                                <span>IoT</span>
+                                <span>Logistics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <p class="lead">
+                        We're not just developers – we're innovation partners committed to bringing
+                        cutting-edge technology solutions to your business.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>AI-First Approach</h4>
+                                <p>We integrate state-of-the-art AI capabilities into everything we build, giving you a competitive edge.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Full-Stack Expertise</h4>
+                                <p>From frontend to backend, mobile to web, we handle every aspect of software development.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Scalable Solutions</h4>
+                                <p>We build systems that grow with your business, ensuring long-term success and adaptability.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Proven Track Record</h4>
+                                <p>With hundreds of successful projects, we have the experience to deliver on your vision.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-stack">
+                        <h4>Technologies We Master</h4>
+                        <div class="tech-categories">
+                            <div class="tech-category">
+                                <h5>AI & ML</h5>
+                                <p>TensorFlow, PyTorch, OpenAI, LangChain, Hugging Face</p>
+                            </div>
+                            <div class="tech-category">
+                                <h5>Frontend</h5>
+                                <p>React, Vue, Angular, Next.js, TypeScript</p>
+                            </div>
+                            <div class="tech-category">
+                                <h5>Mobile</h5>
+                                <p>Swift, Kotlin, React Native, Flutter</p>
+                            </div>
+                            <div class="tech-category">
+                                <h5>Backend</h5>
+                                <p>Node.js, Python, Go, .NET, Java</p>
+                            </div>
+                            <div class="tech-category">
+                                <h5>Game Dev</h5>
+                                <p>Unity, Unreal Engine, Godot</p>
+                            </div>
+                            <div class="tech-category">
+                                <h5>Cloud & DevOps</h5>
+                                <p>AWS, Azure, GCP, Docker, Kubernetes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Build Something Amazing</h2>
+                    <p class="lead">
+                        Ready to transform your business with cutting-edge AI and software solutions?
+                        Get in touch with our team today.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@yourcompany.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="ai">AI Solutions</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile Development</option>
+                                <option value="backend">Backend Development</option>
+                                <option value="game">Game Development</option>
+                                <option value="consulting">Consulting</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="url(#gradient-footer)"/>
+                            <path d="M20 10L28 16V24L20 30L12 24V16L20 10Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                            <defs>
+                                <linearGradient id="gradient-footer" x1="0" y1="0" x2="40" y2="40">
+                                    <stop offset="0%" stop-color="#6366f1"/>
+                                    <stop offset="100%" stop-color="#8b5cf6"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="logo-text">TechVenture</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Transforming businesses through AI-powered innovation and cutting-edge software solutions.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#ai-solutions">AI Solutions</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Backend Systems</a></li>
+                        <li><a href="#services">Game Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechVenture. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
