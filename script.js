@@ -386,9 +386,85 @@ if ('serviceWorker' in navigator) {
 }
 
 // ====================================
+// Counter Animations for Hero Stats
+// ====================================
+
+function animateCounter(counter) {
+    const target = parseInt(counter.getAttribute('data-target'));
+    const duration = 2000; // 2 seconds
+    const increment = target / (duration / 16); // 60fps
+    let current = 0;
+
+    const updateCounter = () => {
+        current += increment;
+        if (current < target) {
+            counter.textContent = Math.floor(current);
+            requestAnimationFrame(updateCounter);
+        } else {
+            counter.textContent = target;
+        }
+    };
+
+    updateCounter();
+}
+
+// Trigger counter animations when hero section is visible
+const heroObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const counters = entry.target.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                animateCounter(counter);
+            });
+            heroObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+const heroSection = document.querySelector('.hero');
+if (heroSection) {
+    heroObserver.observe(heroSection);
+}
+
+// ====================================
+// Enhanced Terminal Interactions
+// ====================================
+
+const terminal = document.querySelector('.terminal');
+if (terminal) {
+    // Add subtle hover effect
+    terminal.addEventListener('mouseenter', () => {
+        terminal.style.transform = 'translateY(-2px)';
+        terminal.style.transition = 'transform 0.3s ease';
+    });
+
+    terminal.addEventListener('mouseleave', () => {
+        terminal.style.transform = 'translateY(0)';
+    });
+}
+
+// ====================================
+// Gradient Text Animation on Hover
+// ====================================
+
+const gradientTexts = document.querySelectorAll('.text-gradient');
+gradientTexts.forEach(text => {
+    text.addEventListener('mouseenter', () => {
+        text.style.backgroundSize = '200% 200%';
+        text.style.backgroundPosition = 'right center';
+        text.style.transition = 'background-position 0.6s ease';
+    });
+
+    text.addEventListener('mouseleave', () => {
+        text.style.backgroundPosition = 'left center';
+    });
+});
+
+// ====================================
 // Initialize Everything
 // ====================================
 
-console.log('ApexAI website initialized ✓');
-console.log('Accessibility features enabled ✓');
-console.log('WCAG 2.2 compliant ✓');
+console.log('🚀 Apex Labs website initialized');
+console.log('✨ Energetic personality enabled');
+console.log('♿ Accessibility features enabled');
+console.log('✓ WCAG 2.2 compliant');

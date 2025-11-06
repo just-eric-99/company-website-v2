@@ -1,19 +1,20 @@
-# ApexAI - Professional AI & Software Development Website
+# Apex Labs - Energetic AI & Software Development Website 🚀
 
-A professional, accessible website for a US-based software vendor specializing in custom AI solutions, web development, mobile development, backend systems, and game development. Built with modern standards and WCAG 2.2 accessibility compliance.
+A vibrant, personality-driven website for a US-based software studio specializing in custom AI solutions, web development, mobile development, backend systems, and game development. Built with modern standards, WCAG 2.2 accessibility compliance, and an energetic-yet-professional aesthetic.
 
 ## Overview
 
-This website showcases expertise in cutting-edge AI solutions (agentic AI, computer vision, NLP) and full-stack software development, following design patterns from leading US software consultancies like Thoughtbot and Atomic Object.
+This website showcases expertise in cutting-edge AI solutions (agentic AI, computer vision, NLP) and full-stack software development, with a unique personality that's **energetic, reliable, professional, and creative** - standing out from generic corporate tech websites.
 
 ## Key Features
 
-### 🎯 Professional Design
-- **Clean, Modern Layout**: Inspired by top US software consultancies
-- **US-Based Business Focus**: Designed for US market with appropriate messaging
-- **Code Showcase**: Interactive code window showing AI implementation examples
-- **Real Metrics**: Actual case studies with tangible results (87% accuracy, 4.2x faster, etc.)
-- **Client Testimonials**: Credible quotes from named individuals and companies
+### 🎨 Energetic Personality
+- **Vibrant Color Palette**: Cyan (#06b6d4) + Purple (#a855f7) + Orange (#f97316)
+- **Programmer-Centric Vibe**: JetBrains Mono font for code, casual yet professional copy
+- **Animated Background**: Floating gradient orbs and grid pattern for visual energy
+- **Terminal Mockup**: Live code visualization showing AI implementation
+- **Direct Messaging**: "We build AI that actually works" - no buzzwords
+- **Animated Counters**: Stats that count up from 0 for engagement
 
 ### ♿ WCAG 2.2 Accessibility Compliance
 - **Skip Navigation Link**: Jump directly to main content
@@ -29,13 +30,14 @@ This website showcases expertise in cutting-edge AI solutions (agentic AI, compu
 ### 💼 Professional Sections
 
 1. **Hero Section**
-   - Clear value proposition
-   - Social proof (client logos)
-   - Dual CTAs (primary & secondary)
-   - Code visualization
+   - Clear value proposition with personality
+   - Animated stat counters (127+ projects, 94% success rate, 50+ clients)
+   - Terminal code visualization
+   - Dual CTAs with glassmorphism effects
+   - Floating gradient orbs background
 
 2. **Services** (6 Core Offerings)
-   - Custom AI Solutions
+   - Custom AI Solutions (featured)
    - Web Development
    - Mobile Development
    - Backend & Infrastructure
@@ -49,19 +51,18 @@ This website showcases expertise in cutting-edge AI solutions (agentic AI, compu
    - Predictive Analytics
    - Technology badges (TensorFlow, PyTorch, LangChain, etc.)
 
-4. **Case Studies** (4 Detailed Projects)
+4. **Stuff We've Shipped** (4 Case Studies)
    - Medical Imaging Platform (Healthcare + AI)
    - Financial Assistant (FinTech + Agentic AI)
    - Shopping App (E-commerce + Mobile)
    - Warehouse Automation (Logistics + Computer Vision)
-   - Real metrics, tech stacks, and testimonials for each
+   - Real metrics, tech stacks, and testimonials
 
 5. **Our Approach** (4-Step Process)
    - Discovery & Strategy
    - Design & Prototyping
    - Development & Iteration
    - Deployment & Support
-   - Core principles highlighted
 
 6. **Contact Form**
    - Accessible form with validation
@@ -72,30 +73,34 @@ This website showcases expertise in cutting-edge AI solutions (agentic AI, compu
 ## Technology Stack
 
 - **HTML5**: Semantic markup with ARIA attributes
-- **CSS3**: Modern CSS with custom properties, Grid, Flexbox
-- **JavaScript**: Vanilla JS with accessibility focus
-- **Fonts**: Inter (Google Fonts)
+- **CSS3**: Modern CSS with custom properties, Grid, Flexbox, animations
+- **JavaScript**: Vanilla JS with accessibility focus and counter animations
+- **Fonts**: Inter (UI), JetBrains Mono (code)
 - **Icons**: Custom SVG graphics
 
 ## File Structure
 
 ```
 company-website-v2/
-├── index.html          # Main HTML (794 lines)
-├── styles.css          # Professional CSS (1,390 lines)
-├── script.js           # Accessible JavaScript (395 lines)
+├── index.html          # Main HTML (640 lines)
+├── styles.css          # Energetic CSS (1,292 lines)
+├── script.js           # Accessible JavaScript with animations (470 lines)
 └── README.md           # Documentation
 ```
 
 ## Design System
 
 ### Color Palette
-- **Primary**: Blue (#2563eb) - Professional, trustworthy
+**Energetic & Professional**
+- **Primary Cyan**: #06b6d4 - Fresh, modern, energetic
+- **Primary Purple**: #a855f7 - Creative, innovative
+- **Accent Orange**: #f97316 - Bold, attention-grabbing
 - **Grays**: Full 50-900 scale for proper contrast
-- **Semantic Colors**: Success, Warning, Error, Info
+- **Gradients**: Cyan-to-purple for primary elements
 
 ### Typography
-- **Font**: Inter (300-900 weights)
+- **UI Font**: Inter (300-900 weights) - Clean and professional
+- **Code Font**: JetBrains Mono - Programmer-centric feel
 - **Scale**: 12px to 60px with consistent ratios
 - **Line Height**: 1.2 for headings, 1.7 for body text
 
@@ -104,9 +109,51 @@ company-website-v2/
 - **Consistent**: All spacing uses CSS custom properties
 
 ### Components
-- **Buttons**: 44x44px minimum, clear hover states
-- **Cards**: 2px borders, rounded corners, hover effects
+- **Buttons**: 44x44px minimum, glassmorphism effects
+- **Cards**: 2px borders, rounded corners, hover effects with glow
 - **Forms**: Accessible inputs with clear focus states
+- **Terminal**: Dark theme with syntax highlighting
+- **Animated Background**: Grid pattern + floating gradient orbs
+
+## Unique Visual Elements
+
+### Animated Background
+```css
+/* Floating gradient orbs */
+.bg-gradient-orb {
+    animation: float-orb 20s ease-in-out infinite;
+    filter: blur(80px);
+}
+
+/* Grid pattern */
+.bg-grid {
+    background-image: linear-gradient(...);
+}
+```
+
+### Terminal Code Mockup
+- Dark theme (#111827 background)
+- macOS-style traffic light dots
+- Syntax-highlighted Python code
+- Demonstrates agentic AI implementation
+
+### Counter Animations
+```javascript
+// Counts from 0 to target value over 2 seconds
+function animateCounter(counter) {
+    const target = parseInt(counter.getAttribute('data-target'));
+    // ... smooth counting animation
+}
+```
+
+### Gradient Text Effects
+```css
+.text-gradient {
+    background: linear-gradient(135deg, var(--cyan-500), var(--purple-500));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
 
 ## Accessibility Features
 
@@ -139,7 +186,7 @@ company-website-v2/
 
 - **Debounced Scroll Events**: Prevents excessive function calls
 - **Intersection Observer**: Efficient element visibility detection
-- **Lazy Loading**: Images and heavy content load on demand
+- **RequestAnimationFrame**: Smooth counter animations at 60fps
 - **CSS Custom Properties**: Fast style updates
 - **Minimal Dependencies**: Pure vanilla JavaScript
 
@@ -147,43 +194,56 @@ company-website-v2/
 
 ### 1. Company Information
 
-**Brand Name**: Replace "ApexAI" throughout
-- `index.html`: Lines 31, 740 (logo)
-- `index.html`: Line 781 (footer copyright)
+**Brand Name**: Replace "Apex Labs" throughout
+- `index.html`: Lines in logo, hero, footer
+- `script.js`: Line 467 (console message)
 
 **Contact Information**:
-- Email: Line 610 (`hello@apexai.dev`)
-- Phone: Line 620 (`+1 (415) 555-1234`)
-- Location: Line 631 (`San Francisco, CA`)
+- Email: `hello@apexai.dev`
+- Phone: `+1 (415) 555-1234`
+- Location: `San Francisco, CA`
 
 ### 2. Color Scheme
 
-Update in `styles.css` (lines 12-22):
+Update in `styles.css` (lines 12-25):
 ```css
---primary-600: #2563eb;  /* Change main brand color */
---primary-700: #1d4ed8;  /* Darken for hover states */
+--cyan-500: #06b6d4;      /* Primary energetic color */
+--purple-500: #a855f7;    /* Secondary creative color */
+--orange-500: #f97316;    /* Accent attention color */
+--gradient-primary: linear-gradient(135deg, var(--cyan-500), var(--purple-500));
 ```
 
-### 3. Content Updates
+### 3. Typography
 
-**Hero Section** (lines 58-101):
-- Update headline
-- Modify description
-- Change client logos
+Update fonts in `styles.css` (lines 5-10):
+```css
+--font-sans: 'Inter', -apple-system, system-ui, sans-serif;
+--font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+```
 
-**Services** (lines 105-216):
-- Edit service descriptions
+### 4. Content Updates
+
+**Hero Section**:
+- Update headline (line 58-62)
+- Modify terminal code (lines 90-100)
+- Change counter targets (data-target attributes)
+
+**Services**:
+- Edit service descriptions (lines 105-216)
 - Update feature lists
-- Modify pricing/offerings
 
-**Case Studies** (lines 352-494):
-- Replace with real projects
-- Update metrics
-- Add actual testimonials
+**Case Studies** ("Stuff We've Shipped"):
+- Replace with real projects (lines 352-494)
+- Update metrics and testimonials
 
-### 4. Logo Replacement
+### 5. Animations
 
-Replace SVG logo (lines 26-30 and 735-739) with your company logo.
+**Disable animations** for subdued version:
+```css
+/* In styles.css */
+.bg-gradient-orb { animation: none; }
+@keyframes float-orb { /* remove */ }
+```
 
 ## Deployment
 
@@ -217,25 +277,28 @@ yourdomain.com
 
 - ✅ Semantic HTML5 structure
 - ✅ Meta descriptions
-- ✅ Open Graph tags (add for social media)
 - ✅ Proper heading hierarchy
 - ✅ Alt text for images (add when using actual images)
-- ✅ Fast page load
+- ✅ Fast page load with optimized animations
 - ✅ Mobile-responsive
+- 🔲 Add Open Graph tags for social media
+- 🔲 Add structured data (JSON-LD)
 
 ## Future Enhancements
 
-- [ ] Add actual project images
-- [ ] Implement blog section
+- [ ] Add actual project images/screenshots
+- [ ] Implement blog section with personality
 - [ ] Add team member profiles
 - [ ] Create detailed case study pages
-- [ ] Integrate analytics (Google Analytics, Plausible)
+- [ ] Integrate analytics (Plausible, Fathom)
 - [ ] Add live chat widget
-- [ ] Implement dark mode toggle
+- [ ] Implement dark mode toggle (currently light only)
 - [ ] Add multi-language support
-- [ ] Create downloadable resources (whitepapers, case studies)
+- [ ] Create downloadable resources
 - [ ] Add video testimonials
 - [ ] Implement service worker for PWA functionality
+- [ ] Add more micro-interactions
+- [ ] Create loading animations
 
 ## Form Backend Integration
 
@@ -244,7 +307,7 @@ The contact form currently logs to console. To make it functional:
 **Option 1: Form Service (Easiest)**
 - [Formspree](https://formspree.io/)
 - [Netlify Forms](https://www.netlify.com/products/forms/)
-- [Form backend](https://formbackend.com/)
+- [Formbackend](https://formbackend.com/)
 
 **Option 2: Custom Backend**
 ```javascript
@@ -278,11 +341,15 @@ contactForm.addEventListener('submit', async (e) => {
 - [ ] Test all navigation links
 - [ ] Submit contact form
 - [ ] Test mobile menu
-- [ ] Check keyboard navigation (Tab through all elements)
+- [ ] Verify counter animations on page load
+- [ ] Check terminal hover effects
+- [ ] Test keyboard navigation (Tab through all elements)
 - [ ] Test with screen reader (NVDA, JAWS, VoiceOver)
-- [ ] Verify color contrast
+- [ ] Verify color contrast with vibrant colors
 - [ ] Test on mobile devices
 - [ ] Check all breakpoints (480px, 768px, 1024px)
+- [ ] Verify floating orbs animation
+- [ ] Test gradient text hover effects
 
 ### Automated Testing
 
@@ -295,9 +362,26 @@ contactForm.addEventListener('submit', async (e) => {
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 - [WebPageTest](https://www.webpagetest.org/)
 
+## Design Philosophy
+
+This website deliberately breaks from generic corporate tech websites by:
+
+1. **Using Vibrant Colors**: Cyan + Purple instead of safe blue
+2. **Adding Personality**: "We build AI that actually works" instead of buzzwords
+3. **Showing Code**: Real terminal mockup with Python implementation
+4. **Animated Elements**: Floating orbs, counting stats for engagement
+5. **Programmer Vibe**: JetBrains Mono font, casual-yet-professional tone
+6. **Glassmorphism**: Modern frosted-glass button effects
+
+While maintaining:
+- Full WCAG 2.2 accessibility compliance
+- Professional credibility with case studies and metrics
+- Clean, readable layout
+- Fast performance
+
 ## License
 
-Copyright © 2024 ApexAI. All rights reserved.
+Copyright © 2024 Apex Labs. All rights reserved.
 
 ## Support
 
@@ -307,16 +391,45 @@ For questions or assistance:
 
 ---
 
-**Built with modern standards, accessibility in mind, and professional design principles.**
+**Built with energy, personality, accessibility, and modern standards.**
 
 ## Credits
 
-Design inspired by leading US software consultancies including:
-- Thoughtbot (thoughtbot.com)
-- Atomic Object (atomicobject.com)
-- And other top-tier software development firms
+Design philosophy inspired by:
+- Claude.ai (programmer-centric typography and friendly vibe)
+- IBM (professional reliability)
+- Linear (smooth animations and vibrant colors)
+- Vercel (bold gradients and modern aesthetic)
 
 Accessibility standards based on:
 - WCAG 2.2 Guidelines
 - WAI-ARIA Authoring Practices
 - US Section 508 Compliance
+
+## Development
+
+### Git Branch
+This project is developed on branch: `claude/vendor-website-ai-solutions-011CUsAFv5Se73fFnAmof2aE`
+
+### Local Development
+Simply open `index.html` in a modern browser. No build process required!
+
+### Key Features Implementation
+
+**Counter Animations** (script.js:389-427):
+- Uses IntersectionObserver to trigger when hero section is visible
+- RequestAnimationFrame for smooth 60fps counting
+- Counts from 0 to target over 2 seconds
+
+**Terminal Interactions** (script.js:429-444):
+- Subtle lift effect on hover
+- Smooth transitions for professional feel
+
+**Gradient Text** (script.js:446-461):
+- Animated background position on hover
+- Creates engaging micro-interaction
+
+**Floating Orbs** (styles.css):
+- 20-second infinite animation loop
+- Blur(80px) for soft, ambient effect
+- Positioned with fixed layout for parallax-like depth
